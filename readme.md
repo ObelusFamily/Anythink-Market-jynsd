@@ -10,4 +10,19 @@ When implementing a new feature or fixing a bug, please create a new pull reques
 
 ## First setup
 
-**[TODO 05/01/2018 @vanessa-cooper]:** _It's been a while since anyone ran a fresh copy of this repo. I think it's worth documenting the steps needed to install and run the repo on a new machine?_
+#### Prerequisites
+
+- [Install Docker](https://docs.docker.com/get-docker/)
+
+#### Launch Anythink in local environment
+
+Once docker is set up, you can **run the command `docker-compose up` in the project root directory**.
+
+If Docker is working correctly, the backend should be running and able to connect to your local database.
+
+You can test this by **pointing your browser** to [http://localhost:3000/api/ping](http://localhost:3000/api/ping).
+
+#### Create user
+
+If everything is working properly, you can create new user account for yourself on [http://localhost:3001/register](http://localhost:3001/register).
+
